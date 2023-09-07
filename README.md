@@ -2,7 +2,7 @@
 \node_modules\fwt-internship-uikit\dist\components\Range\index.d.ts
 ### после строки 14
 /**
- * Children props for react version > 18.0.0
+ * Children props for react version > 18.0.0\
  */
 children: React.ReactNode;
 
