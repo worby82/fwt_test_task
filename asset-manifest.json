@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/fwt_test_task/static/css/main.a55e5ff3.css",
+    "main.js": "/fwt_test_task/static/js/main.36612d5e.js",
+    "static/media/Roboto-BlackItalic.woff": "/fwt_test_task/static/media/Roboto-BlackItalic.3123587706218b4d8187.woff",
+    "static/media/Roboto-LightItalic.woff": "/fwt_test_task/static/media/Roboto-LightItalic.3c494714cdd1de859813.woff",
+    "static/media/Roboto-MediumItalic.woff": "/fwt_test_task/static/media/Roboto-MediumItalic.9a91a0398c5cb21f0199.woff",
+    "static/media/Roboto-BoldItalic.woff": "/fwt_test_task/static/media/Roboto-BoldItalic.997a1e8970d2b7e50fff.woff",
+    "static/media/Roboto-ThinItalic.woff": "/fwt_test_task/static/media/Roboto-ThinItalic.d5937d18c46d7ae260b6.woff",
+    "static/media/Roboto-Medium.woff": "/fwt_test_task/static/media/Roboto-Medium.b14ca2d2b289afceb0b0.woff",
+    "static/media/Roboto-Black.woff": "/fwt_test_task/static/media/Roboto-Black.88d7f1b3ca9a9494d8e3.woff",
+    "static/media/Roboto-Bold.woff": "/fwt_test_task/static/media/Roboto-Bold.3f2cbde6b72e8d05669f.woff",
+    "static/media/Roboto-Regular.woff": "/fwt_test_task/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
+    "static/media/Roboto-Light.woff": "/fwt_test_task/static/media/Roboto-Light.df0f59d80526acc6d0cd.woff",
+    "static/media/Roboto-Thin.woff": "/fwt_test_task/static/media/Roboto-Thin.674b1d2bd9d781457c17.woff",
+    "static/media/Roboto-BlackItalic.woff2": "/fwt_test_task/static/media/Roboto-BlackItalic.71b2b84d5d1a55271b57.woff2",
+    "static/media/Roboto-MediumItalic.woff2": "/fwt_test_task/static/media/Roboto-MediumItalic.ace58ae211415a1f378b.woff2",
+    "static/media/Roboto-LightItalic.woff2": "/fwt_test_task/static/media/Roboto-LightItalic.6006fa5b67e554e06562.woff2",
+    "static/media/Roboto-BoldItalic.woff2": "/fwt_test_task/static/media/Roboto-BoldItalic.74126ecd07ad0d25d3f6.woff2",
+    "static/media/Roboto-ThinItalic.woff2": "/fwt_test_task/static/media/Roboto-ThinItalic.3669a8fac8736f85a7f1.woff2",
+    "static/media/Roboto-Medium.woff2": "/fwt_test_task/static/media/Roboto-Medium.fc0337b9cf1cce2e6e1e.woff2",
+    "static/media/Roboto-Black.woff2": "/fwt_test_task/static/media/Roboto-Black.ae0c1d409f7d45d81c29.woff2",
+    "static/media/Roboto-Bold.woff2": "/fwt_test_task/static/media/Roboto-Bold.6cd35edfbc0d7a417131.woff2",
+    "static/media/Roboto-Regular.woff2": "/fwt_test_task/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
+    "static/media/Roboto-Light.woff2": "/fwt_test_task/static/media/Roboto-Light.d537674e9e217fa53a13.woff2",
+    "static/media/Roboto-Thin.woff2": "/fwt_test_task/static/media/Roboto-Thin.0b33782009e32497dba2.woff2",
+    "static/media/theme-button-dark.svg": "/fwt_test_task/static/media/theme-button-dark.7efac3cbec09ed1764a502709e1ae415.svg",
+    "static/media/theme-button.svg": "/fwt_test_task/static/media/theme-button.403f581a5acb220ed1371178ff780034.svg",
+    "static/media/logo-dark.svg": "/fwt_test_task/static/media/logo-dark.341392e0c316e17646ddea30081fb065.svg",
+    "static/media/logo.svg": "/fwt_test_task/static/media/logo.936e086d4f0a07a7626931eeabbac2ab.svg",
+    "index.html": "/fwt_test_task/index.html",
+    "main.a55e5ff3.css.map": "/fwt_test_task/static/css/main.a55e5ff3.css.map",
+    "main.36612d5e.js.map": "/fwt_test_task/static/js/main.36612d5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a55e5ff3.css",
+    "static/js/main.36612d5e.js"
+  ]
+}
