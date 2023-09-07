@@ -1,0 +1,7 @@
+@use './../../assets/style/index';
+
+.PaintingsList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

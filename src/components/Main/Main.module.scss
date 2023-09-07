@@ -1,0 +1,18 @@
+@use './../../assets/style/index';
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    @media (min-width: 768px) {
+      gap: 35px;
+    }
+    @media (min-width: 1024px) {
+      gap: 40px;
+    }
+  }
+}

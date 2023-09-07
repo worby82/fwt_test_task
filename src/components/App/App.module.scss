@@ -1,0 +1,28 @@
+@use './../../assets/style/index';
+
+.App {
+  background: #fff;
+  min-height: 100%;
+  &--dark {
+    background: #000;
+  }
+  &__container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1120px;
+    padding: 25px 20px 34px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    @media (min-width: 768px) {
+      padding: 35px 34px 54px;
+      row-gap: 35px;
+    }
+    @media (min-width: 1024px) {
+      padding: 35px 42px 62px;
+    }
+    @media (min-width: 1366px) {
+      padding: 35px 0 97px;
+    }
+  }
+}

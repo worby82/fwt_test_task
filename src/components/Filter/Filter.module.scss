@@ -1,0 +1,41 @@
+@use './../../assets/style/index';
+
+.Filter {
+  display: flex;
+  gap: 20px;
+  &__item {
+    @media (min-width: 768px) {
+      width: calc((100% - 60px)/4);
+    }
+  }
+  @media (max-width: 767px) {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+.input {
+  min-width: 95px;
+  max-width: 110px;
+  border: none;
+  outline: none;
+  background: #efefef;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  user-select: none;
+  &--dark {
+    background: #efefef;
+    color: #000;
+  }
+  ::placeholder {
+    color: #b3b3b3;
+  }
+}
+.separator {
+  width: 12px;
+  height: 1px;
+  background: black;
+  &--dark {
+    background: white;
+  }
+}
