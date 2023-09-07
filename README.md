@@ -1,7 +1,7 @@
-### Если проект в режиме разработчика сообщит об ошибке `TS2322: Property 'children' does not exist on type 'IntrinsicAttributes & IRange'.` добавьте следующие изменения в файл
-\node_modules\fwt-internship-uikit\dist\components\Range\index.d.ts
+### Если приложение, во время запуска в режиме разработчика, сообщит об ошибке `TS2322: Property 'children' does not exist on type 'IntrinsicAttributes & IRange'.` добавьте следующие изменения в файл:
+#### `\node_modules\fwt-internship-uikit\dist\components\Range\index.d.ts`
 ### после строки 14
-children: React.ReactNode;
+#### `children: React.ReactNode;`
 
 # Getting Started with Create React App
 
