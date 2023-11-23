@@ -20,7 +20,7 @@ const Main = () => {
     (state) => state.appData.paintingsRequestArguments,
   );
   const {
-    data: paintings,
+    data: { data, totalCount } = { data: [], totalCount: 0 },
     isLoading,
     isError,
   } = useGetPaintingsQuery({
@@ -42,12 +42,12 @@ const Main = () => {
   return (
     <main className={cx('Main')}>
       <Filter />
-      {paintings && paintings.data.length > 0 && (
+      {data.length > 0 && (
         <div className={cx('Main__content')}>
-          <PaintingsList paintings={paintings.data} />
-          {paintings && paintings.totalCount > 0 && (
+          <PaintingsList paintings={data} />
+          {totalCount > 0 && (
             <Pagination
-              pagesAmount={Math.ceil(paintings.totalCount / PAINTINGS_LIMIT)}
+              pagesAmount={Math.ceil(totalCount / PAINTINGS_LIMIT)}
               currentPage={paintingsCurentPage}
               onChange={handleChangePagination}
               isDarkTheme={isDarkTheme}
@@ -55,7 +55,7 @@ const Main = () => {
           )}
         </div>
       )}
-      {!paintings || (paintings.data.length === 0 && !isLoading && <h3>Картины не найдены</h3>)}
+      {data.length === 0 && !isLoading && <h3>Картины не найдены</h3>}
       {isLoading && <h3>Загрузка</h3>}
       {isError && <h3>Ошибка загрузки</h3>}
     </main>
